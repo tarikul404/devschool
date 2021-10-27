@@ -296,7 +296,7 @@ textarea#box {
 .about-us {
     display: flex;
     font-family: 'Ubuntu', sans-serif;
-    
+    margin-bottom: 100px;
 }
 
 /* This is About Us Paragraph Design */
@@ -459,7 +459,7 @@ textarea#box {
     margin-top: 40px;
     margin-left: 580px;
     font-weight: bold;
-    
+    margin-bottom: 50px;
 }
 .warning{
     margin-left: -290px;
