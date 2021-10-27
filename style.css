@@ -172,7 +172,10 @@ span {
     display: flex;
     align-items: center;
     color: white;
-    margin: 100px -8px -8px -8px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -200;
 }
 
 .footer div {
@@ -293,6 +296,7 @@ textarea#box {
 .about-us {
     display: flex;
     font-family: 'Ubuntu', sans-serif;
+    
 }
 
 /* This is About Us Paragraph Design */
@@ -415,6 +419,9 @@ textarea#box {
     border: 1px solid red;
     background-color: rgb(240, 240, 240);
 }
+#name-box::placeholder{
+    font-size: 20px;
+}
 #password-box{
     height: 45px;
     width: 520px;
@@ -452,6 +459,7 @@ textarea#box {
     margin-top: 40px;
     margin-left: 580px;
     font-weight: bold;
+    
 }
 .warning{
     margin-left: -290px;
